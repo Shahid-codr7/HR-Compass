@@ -7,13 +7,16 @@
 ![FAISS](https://img.shields.io/badge/Vector%20Store-FAISS-yellow)
 [](https://hr-compass.streamlit.app/)
 
-🔗 **Live App:** [hr-compass.streamlit.app](https://hr-compass.streamlit.app/)
 
 **HR Compass** is a Retrieval-Augmented Generation (RAG) chatbot that lets
 employees ask natural-language questions about company HR policies and get
 accurate, grounded answers — instantly. Upload your HR policy documents
 (PDF/TXT), and HR Compass answers questions **strictly from that content**,
 citing the source document and page for every response.
+
+---
+
+🔗 **Live App:** [hr-compass.streamlit.app](https://hr-compass.streamlit.app/)
 
 ---
 
