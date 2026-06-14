@@ -1,4 +1,4 @@
-# HR Policy RAG Assistant (Streamlit)
+# HR Policy RAG Assistant 
 
 A Retrieval-Augmented Generation chatbot that answers employee questions
 strictly from your uploaded HR policy documents (PDF/TXT), using LangChain,
