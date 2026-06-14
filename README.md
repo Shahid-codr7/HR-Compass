@@ -1,5 +1,10 @@
 # 🧭 HR Compass — HR Policy RAG Assistant
 
+![Python](https://img.shields.io/badge/Python-3.10+-blue)
+![Streamlit](https://img.shields.io/badge/Streamlit-App-red)
+![LangChain](https://img.shields.io/badge/LangChain-LCEL-1C3C3C)
+![Google Gemini](https://img.shields.io/badge/Google-Gemini-4285F4)
+![FAISS](https://img.shields.io/badge/Vector%20Store-FAISS-yellow)
 [](https://hr-compass.streamlit.app/)
 
 🔗 **Live App:** [hr-compass.streamlit.app](https://hr-compass.streamlit.app/)
