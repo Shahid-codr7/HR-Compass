@@ -1,10 +1,8 @@
 # 🧭 HR Compass — HR Policy RAG Assistant
 
-![Python](https://img.shields.io/badge/Python-3.10+-blue)
-![Streamlit](https://img.shields.io/badge/Streamlit-App-red)
-![LangChain](https://img.shields.io/badge/LangChain-LCEL-1C3C3C)
-![Google Gemini](https://img.shields.io/badge/Google-Gemini-4285F4)
-![FAISS](https://img.shields.io/badge/Vector%20Store-FAISS-yellow)
+[](https://hr-compass.streamlit.app/)
+
+🔗 **Live App:** [hr-compass.streamlit.app](https://hr-compass.streamlit.app/)
 
 **HR Compass** is a Retrieval-Augmented Generation (RAG) chatbot that lets
 employees ask natural-language questions about company HR policies and get
@@ -30,17 +28,17 @@ citing the source document and page for every response.
 
 ```mermaid
 flowchart LR
-    A[Upload PDF / TXT] --> B[Chunk text<br/>RecursiveCharacterTextSplitter]
-    B --> C[Embed chunks<br/>Gemini Embeddings]
+    A[Upload PDF / TXT] --> B[Chunk textRecursiveCharacterTextSplitter]
+    B --> C[Embed chunksGemini Embeddings]
     C --> D[(FAISS Vector Store)]
-    D --> E[Retrieve top-k<br/>similar chunks]
-    E --> F[Augment prompt<br/>with context]
-    F --> G[Generate answer<br/>Gemini 2.5 Flash]
+    D --> E[Retrieve top-ksimilar chunks]
+    E --> F[Augment promptwith context]
+    F --> G[Generate answerGemini 2.5 Flash]
     G --> H[Answer + Sources]
 ```
 
 | Step | Component | Configuration |
-|---|---|---|
+| --- | --- | --- |
 | 1. Chunking | `RecursiveCharacterTextSplitter` | `chunk_size=2000`, `chunk_overlap=700` |
 | 2. Embedding | `GoogleGenerativeAIEmbeddings` | `models/gemini-embedding-001` |
 | 3. Vector store | `FAISS` | built from document chunks |
@@ -71,7 +69,6 @@ flowchart LR
 ```
 
 ---
-
 
 ## 🔮 Possible Enhancements
 
